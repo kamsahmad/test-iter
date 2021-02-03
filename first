@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class FirstClass
+{
+  public static void main(String args[])
+  { 
+    static String TEST_VARIABLE = "test_variable";
+    Scanner scanner=new Scanner(System.in);
+    System.out.println("Enter a value");
+    int val=scanner.nextInt();
+    String firstClass = "tets-variable"; 
+    System.out.println("The entetred value is="+val);
+  }
+}
